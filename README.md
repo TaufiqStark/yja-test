@@ -14,4 +14,9 @@
 # Menjalankan Aplikasi (Production)
 - Buka terminal ketik perintah `npm run build`, pastikan build success
 - Ketik perintah `cd build && npm ci --production && node server.js`
-- Jika berhasil silahkan cek dari link yg mun
+- Jika berhasil silahkan cek dari link yg muncul 
+
+
+__
+
+Taufiq 
