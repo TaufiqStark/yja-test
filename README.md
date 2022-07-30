@@ -1,3 +1,7 @@
+<h3 align="center">SIMPLE TODO LIST</h3>
+
+__
+
 # Setup
 - Jalankan database anda (ex. mysql) dan buat database baru
 - Copy file `.env.example` dan rename menjadi `.env`
