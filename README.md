@@ -1,6 +1,6 @@
 <h3 align="center">SIMPLE TODO LIST</h3>
 
-__
+---
 
 # Setup
 - Jalankan database anda (ex. mysql) dan buat database baru
@@ -21,6 +21,6 @@ __
 - Jika berhasil silahkan cek dari link yg muncul 
 
 
-__
+---
 
 Taufiq 
