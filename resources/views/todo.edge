@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <title>Todo  App</title>
+</head>
+<body>
+<div class="container-fluid bg-white shadow-sm border py-2 mb-5">
+  <h2>TODO APP</h2>
+</div>
+<div class="container">
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="error"></div>
+    <div class="card">
+      <div class="card-header"><h4>New Todo</h4></div>
+      <div class="card-body">
+        <form action="" class="row px-2" id="todo-form">
+          {{--  <label for="title">Title</label>   --}}
+          <div class="col-md-10 px-1">
+            <input type="text" id="title" name="title" placeholder="My first Todo.." class="form-control">
+          </div>
+          <div class="col-md-2 px-1">
+            <button type="submit" class="btn btn-primary mt-2 mt-md-0">Create</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="card mt-3 mb-2">
+      <div class="card-header"><h4>Todo List</h4></div>
+      <div class="card-body">
+      <div id="todoList">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/todo.js"></script>
+</body>
+</html>
